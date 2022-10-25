@@ -1,0 +1,153 @@
+.ContentContainer{
+ /* flex: 1; */
+ background-color:  #ffff;
+ padding: 20px;
+ margin-top: 20px;
+ margin-right: 30px;
+ margin-left: 230px;
+ box-shadow: 10px 10px 65px -30px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 10px 10px 65px -30px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 65px -30px rgba(0,0,0,0.75);
+}
+
+.ContentTitle{
+ display: flex;
+ align-items: center;
+ /* flex-direction: row; */
+
+}
+.ContentTitle>h3{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 4px;
+  text-transform: capitalize;
+}
+
+.firstDate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.firstDate >p{
+  margin-top: 8px;
+  padding-right:  10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8C94A1;
+ 
+}
+.year{
+  padding-right: 10px;
+  /* margin-top: 10px; */
+}
+
+.monthIcon{
+  margin-top: 10px;
+}
+.dateIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.containerButton{
+  padding: 5px, 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.containerButton.Approved{
+ background-color: #DEEDE5;
+}
+.containerButton.pending{
+ background-color: #F8F2D4;
+}
+
+.table{
+  width: 100%;
+  border-spacing: 30px;
+}
+
+.tableth{
+  text-align: left;
+}
+.containerButton.In-review{
+ background-color: #D4E2F8;
+}
+
+.dateIcon>span{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color:#3A3F47;
+}
+
+.secondIconContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondIcon{
+  margin-right: 13px;
+}
+
+.SearchIcon{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search{
+  margin-right: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.footerHr{
+  /* margin:25px; */
+  border-bottom: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.calendar{
+ font-size: 16px;
+ color: gray;
+ border-radius: 2px solid #65ACB0
+}
+
+.SearchIcon>span>hr{
+  width: 80px;
+  border: 1px solid;
+  color: #ffff;
+  border-bottom: none;
+}
+.note{
+  font-size: 14px;
+  background-color: #5CA37B;
+  height: 35px;
+  width: 35px;
+  border-radius: 4px;
+  margin-top: 12px;
+  color: #FFFFFF;
+}
+
+.dateIcon>span >hr{
+  margin-top: 5px;
+  border: 1px solid;
+  color: #ffff;
+  border-bottom: none;
+}
+.DateContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.date{
+  display: flex;
+  justify-content: space-around;
+}
